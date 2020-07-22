@@ -1,0 +1,102 @@
+body{
+	background-image: url('../images/fondoDeContacto.jpg');
+	background-size:100vw 100vh;
+	background-attachment:fixed;
+margin: 70px;
+	left:0;
+	top:0;
+	right:100px;
+	font-family:"arial", monospace;}
+body:before{
+    content: "";
+    width: 100%;
+  min-height:100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(90deg,#091c84,#a809ef,#acc8d8);	
+    opacity: 0.5;
+    z-index: -1;
+}
+form{
+	float:left;
+	font-size:10rem;
+	width:400px;
+	margin:auto;
+	background:rgba(0,0,0,0.4);
+	padding:10px 20px;
+	box-sizing:border-box;
+	margin-top:20px;
+    margin-bottom: 20px;
+	border-radius:7px;
+	}
+h2{
+	color:#FFF;
+	text-align:center;
+	margin:0;
+	font-size:30px;
+	margin-bottom:20px;	}
+input, textarea{
+	width:100%;
+	margin-bottom:20px;
+	padding:7px;
+	box-sizing:border-box;
+	font-size:14px;
+	border:none;}
+textarea{
+	min-height:100px;
+	max-height:200px;
+	max-width:100%;}
+
+#boton{
+	background:#31384a;
+	color:#fff;
+	padding:20px;}
+#boton:hover{
+	cursor:pointer;}
+.containerIzqContactos{
+	float:right;
+	width:auto;
+	height:auto;
+    left: 0;
+    right: 0;}
+.containerIzqContactos h1{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+p{
+	margin-bottom:1em;}
+h4{
+	color:#FFF;
+	width:250px;
+	height:60px;
+margin-top: 0;}
+	
+.containerIzqContactos img{
+	width:60px;
+	height:60px;}
+	
+ h5{
+	background:rgba(0,0,0,0.8);
+	padding:10px 10px;	
+	margin-top:20px;
+	border-radius:7px;
+	font-family:"Times New Roman", monospace;
+	color:#FFF;}
+
+@media (max-width:650px){
+	form{
+		width: 100%;
+		}
+    body:before{
+    content: "";
+    width: 100%;
+  min-height:155%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(90deg,#091c84,#a809ef,#acc8d8);	
+    opacity: 0.5;
+    z-index: -1;
+}
+	}
